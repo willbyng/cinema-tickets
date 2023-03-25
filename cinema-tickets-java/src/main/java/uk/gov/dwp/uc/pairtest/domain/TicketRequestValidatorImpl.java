@@ -3,7 +3,6 @@ package uk.gov.dwp.uc.pairtest.domain;
 import uk.gov.dwp.uc.pairtest.domain.TicketTypeRequest.Type;
 import uk.gov.dwp.uc.pairtest.exception.InvalidPurchaseException;
 
-import java.math.BigDecimal;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Stream;

@@ -1,6 +1,5 @@
 package uk.gov.dwp.uc.pairtest.domain;
 
-import uk.gov.dwp.uc.pairtest.domain.TicketTypeRequest.Type;
 import uk.gov.dwp.uc.pairtest.exception.InvalidPurchaseException;
 
 import java.math.BigDecimal;
@@ -9,7 +8,7 @@ import java.util.logging.Logger;
 import java.util.stream.Stream;
 
 /**
- * Implements validation logic to check a group of Ticket purchase requests
+ * Implements calculation logic to determine seat reservations and total cost for a group of Ticket purchase requests
  */
 public class TicketRequestCalculatorImpl implements TicketRequestCalculator {
 

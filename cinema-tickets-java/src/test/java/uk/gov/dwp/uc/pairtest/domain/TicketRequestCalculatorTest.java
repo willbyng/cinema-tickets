@@ -4,14 +4,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 import uk.gov.dwp.uc.pairtest.domain.TicketTypeRequest.Type;
-import uk.gov.dwp.uc.pairtest.exception.InvalidPurchaseException;
 
 import java.math.BigDecimal;
 
-import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.fail;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TicketRequestCalculatorTest {

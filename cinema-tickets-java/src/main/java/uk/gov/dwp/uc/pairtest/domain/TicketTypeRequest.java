@@ -11,7 +11,7 @@ public class TicketTypeRequest {
     final private Type type;
 
     /**
-     * Resposible for holding the submitted ticket requests, and returning
+     * Responsible for holding the submitted ticket requests, and returning values for calculations
      *
      * @param type
      * @param noOfTickets
